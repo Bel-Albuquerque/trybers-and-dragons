@@ -9,21 +9,21 @@ export default class PVE extends Battle {
     super(player);
   }
 
-  private _singleBattle(enemy: SimpleFighter | Fighter) {
+  private _battles(enemy: SimpleFighter | Fighter) {
     while (this.player.lifePoints !== -1 && enemy.lifePoints !== -1) {
       this.player.attack(enemy);
       enemy.attack(this.player);
     }
   }
 
-  private _fightsInBattle() {
+  private _BattlesInFight() {
     for (let i = 0; i < this.enemies.length; i += 1) {
-      this._singleBattle(this.enemies[i]);
+      this._battles(this.enemies[i]);
     }
   }
 
   fight(): number {
-    this._fightsInBattle();
+    this._BattlesInFight();
     return this.player.lifePoints === -1 ? -1 : 1;
   }
 }
