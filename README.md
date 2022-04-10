@@ -34,7 +34,7 @@ git clone https://github.com/Bel-Albuquerque/trybers-and-dragons.git
 ```
 Entre na pasta do repositório que você acabou de clonar:
  ```
-cd trybe-futebol-clube
+cd trybers-and-dragons
   ```
 Instale as dependências:
  ```
