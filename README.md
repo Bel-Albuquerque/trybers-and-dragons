@@ -9,8 +9,8 @@ Alguns seres também possuem uma **energia** e, ao treinarem o uso da energia, p
 
 Boa parte dos seres podem ser considerados lutadores, bastando para isso possuir alguns atributos específicos e em diversas ocasiões podem acontecer lutas entre personagens diversos, bem como entre personagens e monstros.
 
-<i>Texto a cima de autoria da [Trybe](https://github.com/tryber)</i>
-
+###### <i>Texto a cima de autoria da [Trybe](https://github.com/tryber)</i>
+>
 
 ### Ajustes e melhorias
 
